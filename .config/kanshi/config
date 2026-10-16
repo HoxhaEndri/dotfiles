@@ -4,11 +4,20 @@ profile desk {
     output eDP-1 enable mode 1920x1200 position 1152,1080 scale 1.25
 }
 
-profile laptop {
+profile laptop-personal {
+    output "Chimei Innolux Corporation 0x15E5 Unknown" enable mode 1920x1080 position 0,0 scale 1.0
+}
+
+profile laptop-work {
     output eDP-1 enable mode 1920x1200 position 0,0 scale 1.25
 }
 
-profile home {
+profile home-work {
     output HDMI-A-1 enable mode 1920x1080 position 0,0 scale 1.0
     output eDP-1 enable mode 1920x1200 position 192,1080 scale 1.25
+}
+
+profile home-personal {
+    output HDMI-A-2 enable mode 1920x1080 position 0,0 scale 1.0
+    output "Chimei Innolux Corporation 0x15E5 Unknown" enable mode 1920x1080 position 0,1080 scale 1.0
 }
