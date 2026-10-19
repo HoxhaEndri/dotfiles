@@ -1,6 +1,12 @@
-profile desk {
+profile desk-1 {
     output DP-6 enable mode 1920x1080 position 0,0 scale 1.0
     output DP-4 enable mode 1920x1080 position 1920,0 scale 1.0
+    output eDP-1 enable mode 1920x1200 position 1152,1080 scale 1.25
+}
+
+profile desk-2 {
+    output DVI-I-1 enable mode 1920x1080 position 0,0 scale 1.0
+    output DVI-I-2 enable mode 1920x1080 position 1920,0 scale 1.0
     output eDP-1 enable mode 1920x1200 position 1152,1080 scale 1.25
 }
 
