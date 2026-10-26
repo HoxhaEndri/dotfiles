@@ -1,0 +1,12 @@
+[Unit]
+Description=Safe Eyes break reminder
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/safeeyes
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target
