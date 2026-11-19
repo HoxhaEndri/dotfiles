@@ -1,6 +1,6 @@
 profile desk-1 {
-    output DP-6 enable mode 1920x1080 position 0,0 scale 1.0
-    output DP-4 enable mode 1920x1080 position 1920,0 scale 1.0
+    output "Philips Consumer Electronics Company PHL 273V5 UK51838043436" enable mode 1920x1080 position 0,0 scale 1.0
+    output "Philips Consumer Electronics Company PHL 273V5 UK01621033303" enable mode 1920x1080 position 1920,0 scale 1.0
     output eDP-1 enable mode 1920x1200 position 1152,1080 scale 1.25
 }
 
@@ -13,6 +13,12 @@ profile desk-2 {
 profile desk-3 {
     output "Philips Consumer Electronics Company PHL 273V5 UK51646025699" enable mode 1920x1080 position 0,0 scale 1.0
     output "Philips Consumer Electronics Company PHL 273V5 UK51646025405" enable mode 1920x1080 position 1920,0 scale 1.0
+    output eDP-1 enable mode 1920x1200 position 1152,1080 scale 1.25 
+}
+
+profile desk-4 {
+    output "Philips Consumer Electronics Company PHL 273V5 UK51838043449" enable mode 1920x1080 position 0,0 scale 1.0
+    output "Philips Consumer Electronics Company PHL 273V5 UK51632020249" enable mode 1920x1080 position 1920,0 scale 1.0
     output eDP-1 enable mode 1920x1200 position 1152,1080 scale 1.25 
 }
 
